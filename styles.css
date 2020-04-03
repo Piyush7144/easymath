@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: pink;
+  }
+   .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+    }
+
+    .nav li {
+      float: left;
+    }
+    
+    .nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: 130%;
+      padding: 20px 24px;
+      text-decoration: none;
+    }
+    
+    
+    .nav li a:hover:not(.signup) {
+      background-color: rgb(159, 168, 163);
+    }
+  
+    .first{
+      margin-right: 20%;
+      color:cadetblue;
+      font-family:cursive;
+    }
+    .signup{
+       background: rgb(230, 47, 47);
+    }
+  
+    .footer{
+      background:black;
+      color:white;
+    }
+    
+    th,td{
+        margin:10px;
+    }
+  
+    .container{
+      width:70%;
+      height:600px;
+      background: white;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 20px;
+    }
+  
+    #pastehere, #pastehere2{
+        font-size: 300%;
+    }
+    #test{
+        font-size:101%;
+    }
+    #button1{
+        font-size:102%;
+        margin-left: 20px;
+        background: orange;
+    }
+
+    h1, h2, p{
+        margin:10px;
+    }
+
+    #highlight{
+        font-size:200%;
+        background: rgb(224, 152, 194);
+    }

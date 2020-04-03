@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        #left{
+            width:400px;
+            height:300px;
+            float:left;
+           
+            border-right:10px solid green;
+        }
+        #right{
+            width:400px;
+            height:300px;
+            float:left;
+           
+        }
+        #sp1, #sp2 {
+            float:left;
+            margin:20px;
+            width:100px;
+            height:100px;
+            background: pink;
+        }
+        #sp3 , #sp5, #sp4{
+            clear:both;
+            margin:20px;
+            width:100px;
+            height:100px;
+            background: pink;
+        }
+    </style>
+</head>
+<body >
+    <div class="header">
+    <div class="nav">
+      <ul>
+        <li class="first"><a href="index.html">Easy Maths</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+         <li><a  href="innerindex.html">Practise</a></li>
+         <li><a  href="lessons.html">Lessons</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="container">
+     <h1>Practice</h1>
+     <h2 id="present">Balance1</h2>
+     <p id="highlight">Try entering a number to fill in the boxes labeled'x'.
+         <br><strong>Goal:</strong>After replacing 'x' with your number, both sides
+         <br>of the line should add up the same total.
+     </p>
+     <p id="pastehere2">
+            <input type="text" id="test" size="1">
+            <button onclick="function1()" id="button1">Try it</button>
+     </p>
+     <div id="left">
+         <div id="sp1"><p>1</p></div>
+         <div id="sp2">2</div>
+         <div id="sp3">3</div>
+     </div>
+     <div id="right">
+        <div id="sp4">4</div>
+        <div id="sp5">5</div>
+    </div>
+     <p id="pastehere"></p>
+     
+     <p id="pastehere3"> </p>
+    </div> 
+    <div class="footer">
+            <table  width="1000" style="text-align: center;">
+                <tr>
+                    <td>About us</td>
+                    <td>Support</td>
+                    <td>Email us</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center;">
+                      Thank you for visiting.
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <script src="balance1.js"></script>
+</body>
+</html>
+

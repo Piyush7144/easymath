@@ -1,0 +1,179 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url("images/image2.jpg");
+}
+ .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+ 
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    padding: 20px 24px;
+    text-decoration: none;
+  }
+  
+  
+  .nav li a:hover:not(.signup) {
+    background-color: rgb(159, 168, 163);
+  }
+
+  .first{
+    margin-right: 20%;
+    color:cadetblue;
+    font-family:cursive;
+  }
+  .signup{
+     background: rgb(230, 47, 47);
+  }
+
+  .footer{
+    background:black;
+    color:white;
+  }
+  
+  th,td{
+      margin:10px;
+  }
+
+  .container{
+    width:auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+
+  .box{
+    width: 25%;
+    height: 250px;
+    background: rgb(252, 251, 250);
+    float:left;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .box4{
+    clear: both;
+  }
+  
+  .boxx{
+    float:left;
+    width: 25%;
+    height: 250px;
+    background: rgb(253, 253, 252);
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  #lastthing{
+    clear:both;
+  }
+
+  .design{
+    background:rgb(245, 242, 242);
+    border-bottom:solid rgb(189, 188, 188);
+  }
+
+  .design2{
+    margin-left:100px;
+    padding-top:20px;
+  }
+
+  h2{
+    padding:10px;
+  }
+
+  /*.innerli{
+    color:brown;
+    font-weight: 500;
+    font-size: 130%;
+    margin-left: 35px;
+    padding:10px;
+    list-style-type: disc;
+  }
+
+  .box li a{
+    display: block;
+    text-decoration: none;
+    color:rgb(126, 45, 45);
+  }
+  */
+  .box2{
+    background-image: url('images/image7.png');
+  }
+  .box1{
+    background-image: url('images/image6.png');
+  }
+  .box3{
+    background-image: url('images/image8.png');
+  }
+  .box4{
+    background-image: url('images/image9.png');
+  }
+  .box5{
+    background-image: url('images/image10.png');
+  }
+  .box6{
+    background-image: url('images/image11.png');
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: rgb(36, 173, 116);
+    font-family: inherit;
+     margin: 0;
+  }
+
+  .dropdown:hover .dropbtn{
+    background-color: rgb(97, 140, 160);
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 274px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown  .dropbtn {
+    width:100%;
+  }
+  

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      #btn1{
+          margin-right: 100px;
+          font-size: 130%;
+      }
+      #btn2{
+          margin-left: 35px;
+          font-size: 130%;
+      }
+      #btn3{
+          margin-left: 35px;
+          font-size: 130%;
+      }
+      button{
+          font-size: 130%;
+          width:50px;
+          background: rgb(30, 192, 30);
+      }
+      #test{
+        width:150px;
+        margin:40px;
+        background: rgb(167, 180, 47);
+      }
+      #paste{
+        margin-left:40px;
+        font-size: 200%;
+      }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <div class="nav">
+      <ul>
+        <li class="first"><a href="index.html">Easy Maths</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+         <li><a  href="innerindex.html">Practise</a></li>
+         <li><a  href="lessons.html">Lessons</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="container">
+     <img src="images/image12.PNG"><br>
+     <div><input type="text" id="btn1" >
+          <button> +</button>
+          <input type="text" id="btn2">
+          <button>  = </button>
+          <input type="text" id="btn3" size="3">
+          <br>
+          <button id="test" onclick="function1()">Check</button>
+          <p id = "paste"></p>
+        </div>
+    </div> 
+    <div class="footer">
+            <table  width="1000" style="text-align: center;">
+                <tr>
+                    <td>About us</td>
+                    <td>Support</td>
+                    <td>Email us</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align: center;">
+                      Thank you for visiting.
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <script >
+    
+    function function1()
+    {
+      var a = document.getElementById("btn1");
+      var b = document.getElementById("btn2");
+      var c = document.getElementById("btn3");
+      var z = document.getElementById("paste");
+      z.innerHTML = a.value;
+      if((a.value == 5) &&  (b.value ==  3) && (c.value == 8))
+      {
+                  z.innerHTML = "Correct";
+      }
+      else
+      z.innerHTML = "Wrong";
+
+    }
+    </script>
+</body>
+</html>
+
